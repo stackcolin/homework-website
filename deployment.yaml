@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: npm-app-container
-        image: local-express-app:v1
+        image: local-express-app:v2
         imagePullPolicy: IfNotPresent # Tells K8s to look locally instead of Docker Hub
         ports:
         - containerPort: 3000
